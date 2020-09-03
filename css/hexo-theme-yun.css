@@ -129,14 +129,14 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("https://cdn.jsdelivr.net/gh/weixinwuyu/CDN/img/1.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/weixinwuyu/CDN/img/Exhibition3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
   opacity: 1;
-  filter: blur(15px);
+  filter: blur(1px);
 }
 @-moz-keyframes bgFadeIn {
   from {
