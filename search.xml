@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>程序语言设计</title>
+      <link href="/2021/06/30/JAVA/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%8E%AF%E5%A2%83/"/>
+      <url>/2021/06/30/JAVA/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>public class Welcome{</p><p>​        public static void main(String[] args){</p><p>​        System.out.print();</p><p>​        }</p><p>}</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JAVA </category>
+          
+          <category> 第二章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JAVA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>程序语言设计</title>
+      <link href="/2021/06/30/JAVA/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1/"/>
+      <url>/2021/06/30/JAVA/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h3 id="1-1-Java程序设计平台"><a href="#1-1-Java程序设计平台" class="headerlink" title="1.1 Java程序设计平台"></a>1.1 Java程序设计平台</h3><h3 id="1-2-Java关键术语"><a href="#1-2-Java关键术语" class="headerlink" title="1.2 Java关键术语"></a>1.2 Java关键术语</h3><h4 id="1-2-1-简单性"><a href="#1-2-1-简单性" class="headerlink" title="1.2.1 简单性"></a>1.2.1 简单性</h4><p>Java剔除了c++中很多很少使用、难以理解的、容易混淆的特性。没有头文件、指针运算、结构、联合、操作符重载、虚基类等。但是没有试图清除c++全部的不适当的特性，如witch语法。</p><p>“简单”的另一个含义是小。Java的目标之一是支持开发能够在小型机器独立运行的软件。基本解释器以及类支持大约40KB，再加上基础的标准类库和对线程的支持，大约需要增加175KB。</p><h4 id="1-2-2-面向对象"><a href="#1-2-2-面向对象" class="headerlink" title="1.2.2 面向对象"></a>1.2.2 面向对象</h4><p>用木匠打比方：</p><p>“面向对象”：始终关注的是所制作的椅子，其次才是使用的工具。</p><p>“面向过程”：主要考虑的是使用的工具。</p><h4 id="1-2-3-分布式"><a href="#1-2-3-分布式" class="headerlink" title="1.2.3 分布式"></a>1.2.3 分布式</h4><p>Java有一个丰富的类库，用于处理像HTTP和FTP之类的TCP/IP协议。Java应用程序能够通过URL打开和访问网络上的对象，其便捷程度就好像访问本地文件一样。</p><h4 id="1-2-4-健壮性"><a href="#1-2-4-健壮性" class="headerlink" title="1.2.4 健壮性"></a>1.2.4 健壮性</h4><p>Java的设计目标之一在于使得Java编写程序时具有多方面的可靠性。Java非常强调进行早期的问题检测、后期动态的（运行时）检测，以及消除容易出错的地方。Java编译器能够检测出其他语言仅在运行时才能检测出来的问题。</p><h4 id="1-2-5-安全性"><a href="#1-2-5-安全性" class="headerlink" title="1.2.5 安全性"></a>1.2.5 安全性</h4><p>Java要适用于网络/分布式环境。从一开始就设计成能够防范各种攻击，其中包括：</p><ul><li>运行时堆栈溢出，这是蠕虫和病毒常用的攻击手段</li><li>破坏自己的进程空间之外的内存</li><li>未经授权读写文件</li></ul><h4 id="1-2-6-体系结构中立（跨平台性）"><a href="#1-2-6-体系结构中立（跨平台性）" class="headerlink" title="1.2.6 体系结构中立（跨平台性）"></a>1.2.6 体系结构中立（跨平台性）</h4><p>代码-&gt;字节码文件-&gt;编译器-&gt;本地代码</p><h4 id="1-2-7-可移植性"><a href="#1-2-7-可移植性" class="headerlink" title="1.2.7 可移植性"></a>1.2.7 可移植性</h4><p>c/c++在不同的机器基本数据类型大小不同，Java中得数据类型在任何平台永远相同。</p><h4 id="1-2-8-解释性"><a href="#1-2-8-解释性" class="headerlink" title="1.2.8 解释性"></a>1.2.8 解释性</h4><p>Java解释器可以在任何移植了解释器的机器上直接执行Java字节码文件。</p><h4 id="1-2-9-高性能"><a href="#1-2-9-高性能" class="headerlink" title="1.2.9 高性能"></a>1.2.9 高性能</h4><h4 id="1-2-10-多线程"><a href="#1-2-10-多线程" class="headerlink" title="1.2.10 多线程"></a>1.2.10 多线程</h4><p>多线程可以带来更快的交互响应和实时得行为。</p><h4 id="1-2-11-动态性"><a href="#1-2-11-动态性" class="headerlink" title="1.2.11 动态性"></a>1.2.11 动态性</h4><p>Java库中可以自由地添加新方法和实例变量，而对客户端却没有任意影响。（如从intern上下载代码，在浏览器上运行。如果使用C/C++会很困难，但是Java较为容易实现）</p><h3 id="1-3-Java-applet与Internet"><a href="#1-3-Java-applet与Internet" class="headerlink" title="1.3 Java applet与Internet"></a>1.3 Java applet与Internet</h3><h3 id="1-4-Java发展史"><a href="#1-4-Java发展史" class="headerlink" title="1.4 Java发展史"></a>1.4 Java发展史</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> JAVA </category>
+          
+          <category> 第一章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JAVA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>落尘</title>
       <link href="/2021/06/01/%E6%84%8F/%E8%90%BD%E5%B0%98/"/>
       <url>/2021/06/01/%E6%84%8F/%E8%90%BD%E5%B0%98/</url>
