@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>第三章 Java的基本程序设计结构</title>
+      <link href="/2021/06/30/JAVA/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84/"/>
+      <url>/2021/06/30/JAVA/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><ul><li>一个简单的Java应用程序</li><li>注释</li><li>数据类型</li><li>变量与常量</li><li>运算符</li><li>字符串</li><li>输入输出</li><li>控制流</li><li>大数</li><li>数组</li></ul><h4 id="3-1-一个简单的Java应用程序"><a href="#3-1-一个简单的Java应用程序" class="headerlink" title="3.1 一个简单的Java应用程序"></a>3.1 一个简单的Java应用程序</h4><p>public class FirstSample{</p><p>​        public static void main(String[] args){</p><p>​          System.out.println(“We will not use ‘Hello World”);</p><p>​        }</p><p>}</p><p>关键字public成为访koop问修饰符（access modifer），控制程序其他部分对这段代码的访问级别。</p><p>关键字static表明Java程序中的全部内容都包含在类中。（类可以理解为程序逻辑的一个容器，程序逻辑定义了应用程序的行为），Java应用程序中的全部内容都必须放置在类中。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JAVA </category>
+          
+          <category> 第三章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JAVA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第二章 Java程序设计环境</title>
       <link href="/2021/06/30/JAVA/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%8E%AF%E5%A2%83/"/>
       <url>/2021/06/30/JAVA/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%8E%AF%E5%A2%83/</url>
